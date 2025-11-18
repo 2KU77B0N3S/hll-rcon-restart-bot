@@ -1,0 +1,34 @@
+# Node / NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# PM2 (if you ever use it directly here)
+pm2.*
+ecosystem.config.js
+
+# Optional: if you add a build step later
+/dist
+/build
