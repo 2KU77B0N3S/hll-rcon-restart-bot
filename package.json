@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "util": "^0.12.5"
+  },
+  "name": "hll-rcon-restart-bot",
+  "version": "1.0.0",
+  "main": "main.mjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "2KU77B0N3S",
+  "license": "MIT",
+  "description": "Discord bot that provides a simple button in a private channel to safely restart your Hell Let Loose CRCON (hll_rcon_tool) Docker container with one click. No more SSH just to restart the tool."
+}
